@@ -56,8 +56,6 @@ type configImpl struct {
 	brokenDupRules     bool
 	brokenPhonyTargets bool
 	brokenUsesNetwork  bool
-
-	pathReplaced bool
 }
 
 const srcDirFileCheck = "build/soong/root.bp"
